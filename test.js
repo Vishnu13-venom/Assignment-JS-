@@ -43,7 +43,7 @@ function Converttime(n) {
 // 0 XOR 0 = 0
 // 1 XOR 0 = 1
 // 0 XOR 1 = 1
-// 1 XOR 1 = 1
+// 1 XOR 1 = 0
     function oddeven(L, R)
 {      // Here we count the no. of odd number in the given integers range
     let count = Math.floor((R - L) / 2);
